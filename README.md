@@ -274,10 +274,10 @@ It's so easy that I don't think it's necessary to write it but anyway I will exp
 
  > Rules
   - service name and its own functions are can be known from Impl
+    - jp\naver\line\android\thrift\client\impl
   - Response can be known from _result
     - When _result has no Struct, it's a void function.
   - Request can be known from _args
-    - jp\naver\line\android\thrift\client\impl
   - FieldID, Types, the name is can be known from invoke-direct.
   - instance fields are linked to program_args of direct methods
     - The Type is definitely Types or Struct or Enum
@@ -442,7 +442,8 @@ If you hooking LINE long time, you would notice that function called fetchOps is
 
 *Referenced from wikipedia, the free encyclopedia*
 
-> (computing) A technology where the client requests information from the server without expecting an immediate response.
+> long polling (uncountable)
+>> (computing) A technology where the client requests information from the server without expecting an immediate response.
 
 So the function is used to wait and catch the user's actions, such as "Your friend sent a message to you/group" "somebody changed the group's icon".
 
