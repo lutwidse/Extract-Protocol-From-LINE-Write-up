@@ -1,4 +1,4 @@
-© 2020 Lutwidse
+© Lutwidse All rights reserved.
 
 ## 0. Introduction to analyze LINE
 Hi, I'm Lutwidse who is learning about reverse engineering.  
